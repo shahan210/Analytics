@@ -7,9 +7,9 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="text-white flex justify-center px-4 mx-auto h-24 max-w-[1240px] items-center">
+    <div className="text-white flex justify-center px-4 mx-auto h-24 max-w-[1440px] items-center">
       <h1 className=" m-4 w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
-      <ul className="md:flex hidden">
+      <ul className="md:flex hidden cursor-pointer">
         <li className="p-4">Home</li>
         <li className="p-4">Company</li>
         <li className="p-4">Resources</li>
@@ -28,11 +28,19 @@ const Navbar = () => {
       >
         <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">REACT.</h1>
         <ul className="pt-24 uppercase">
-          <li className="p-4 border-b border-b-gray-600">Home</li>
-          <li className="p-4 border-b border-b-gray-600">Company</li>
-          <li className="p-4 border-b border-b-gray-600">Resources</li>
-          <li className="p-4 border-b border-b-gray-600">About</li>
-          <li className="p-4">Contact</li>
+          <li className="p-4 border-b border-b-gray-600 hover:text-xl ease-in-out">
+            Home
+          </li>
+          <li className="p-4 border-b border-b-gray-600 hover:text-xl ease-in-out">
+            Company
+          </li>
+          <li className="p-4 border-b border-b-gray-600 hover:text-xl ease-in-out">
+            Resources
+          </li>
+          <li className="p-4 border-b border-b-gray-600 hover:text-xl ease-in-out">
+            About
+          </li>
+          <li className="p-4 hover:text-xl ease-in-out">Contact</li>
         </ul>
       </div>
     </div>
