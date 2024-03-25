@@ -23,24 +23,24 @@ const Navbar = () => {
         className={
           nav
             ? "fixed h-full left-0 top-0 w-[60%] border-r bg-[#000300] border-r-gray-900 ease-in-out duration-500"
-            : "fixed left-[-100%] "
+            : "fixed left-[-100%]"
         }
       >
         <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">REACT.</h1>
         <ul className="pt-24 uppercase">
-          <li className="p-4 border-b border-b-gray-600 hover:text-xl ease-in-out">
+          <li className="p-4 border-b border-b-gray-600 hover:scale-105 ease-in-out duration-200">
             Home
           </li>
-          <li className="p-4 border-b border-b-gray-600 hover:text-xl ease-in-out">
+          <li className="p-4 border-b border-b-gray-600 hover:scale-105 ease-in-out duration-200">
             Company
           </li>
-          <li className="p-4 border-b border-b-gray-600 hover:text-xl ease-in-out">
+          <li className="p-4 border-b border-b-gray-600 hover:scale-105 ease-in-out duration-200">
             Resources
           </li>
-          <li className="p-4 border-b border-b-gray-600 hover:text-xl ease-in-out">
+          <li className="p-4 border-b border-b-gray-600 hover:scale-105 ease-in-out duration-200">
             About
           </li>
-          <li className="p-4 hover:text-xl ease-in-out">Contact</li>
+          <li className="p-4 hover:scale-105 ease-in-out duration-200">Contact</li>
         </ul>
       </div>
     </div>

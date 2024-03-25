@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 export const Home = () => {
   return (
     <div className="text-white flex justify-center">
-      <div className=" md:max-w-[800px] sm:max-w-[630px] max-w-[320px] mt-[-96px] w-full h-screen flex-col flex justify-center items-center">
+      <div className=" md:max-w-[800px] sm:max-w-[630px] max-w-[320px]  w-full h-screen flex-col flex justify-center items-center">
         <p className="text-[#00df9a] p-2 uppercase font-bold">
           Growing with Data Analytics
         </p>

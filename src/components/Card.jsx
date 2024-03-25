@@ -5,7 +5,7 @@ import Double from "../assets/double.png";
 
 const Card = () => {
   return (
-    <div className="bg-white w-full py-[10rem] px-4">
+    <div className="bg-white w-full py-[10rem] px-5">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
         <div className="w-full shadow-xl flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
@@ -26,7 +26,7 @@ const Card = () => {
         </div>
         <div className="w-full shadow-xl flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 md:my-0 bg-gray-100">
           <img
-            className="w-20 mx-auto bg-white mt-[-3rem] bg-transparent"
+            className="w-20 mx-auto  mt-[-3rem] bg-transparent"
             src={Double}
             alt="Individual"
           />
